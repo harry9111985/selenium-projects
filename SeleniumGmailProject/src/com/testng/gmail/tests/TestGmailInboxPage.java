@@ -20,10 +20,6 @@ public class TestGmailInboxPage {
 	GmailLoginPage loginPage;
 	GmailInboxPage inboxPage;
 	
-	@BeforeClass(alwaysRun=true)
-	public void setUp(){
-		System.setProperty("webdriver.chrome.driver", "C:\\Harish Software\\selenium\\chromedriver_win32\\chromedriver.exe");
-	}
 	
 	@BeforeMethod(alwaysRun=true)
 	public void loginSuccessfullyToGmail(){

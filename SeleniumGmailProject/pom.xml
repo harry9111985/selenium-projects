@@ -27,6 +27,9 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.19.1</version>
         <configuration>
+          <systemPropertyVariables>
+            	<webdriver.chrome.driver>${webdriver.chrome}</webdriver.chrome.driver>
+          </systemPropertyVariables>
           <groups>functest</groups>
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
@@ -35,6 +38,9 @@
       </plugin>
     </plugins>
   </build>
+  <properties>
+    <webdriver.chrome>C:\Harish Software\selenium\chromedriver_win32\chromedriver.exe</webdriver.chrome>
+  </properties>
   <dependencies>
   	<dependency>
   		<groupId>org.testng</groupId>

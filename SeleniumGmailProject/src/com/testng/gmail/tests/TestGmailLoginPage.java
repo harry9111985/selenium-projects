@@ -22,15 +22,6 @@ public class TestGmailLoginPage {
 	GmailLoginPage gmailLoginPage;
 	GmailInboxPage gmailLoginSuccessPage;
 	
-	@BeforeClass(alwaysRun=true)
-	public void setUp(){
-		System.setProperty("webdriver.chrome.driver", "C:\\Harish Software\\selenium\\chromedriver_win32\\chromedriver.exe");
-	}
-	
-	
-	
-	
-	
 	@Test(groups = {"functest"} ,dataProvider="loginSuccessData" , dataProviderClass=GmailDataProviderSource.class)
 	public void test_Gmail_Login_Successful (DataRow row){
 		String email = row.getAttributeValue("Email");
