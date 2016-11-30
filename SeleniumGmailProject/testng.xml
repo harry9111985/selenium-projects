@@ -11,8 +11,8 @@
 	   </groups>
 
 	   <classes>
-	      <class name="com.gmail.tests.TestGmailLoginPage"/>
-	      <class name="com.gmail.tests.TestGmailInboxPage"/>
+	      <class name="com.testng.gmail.tests.TestGmailLoginPage"/>
+	      <class name="com.testng.gmail.tests.TestGmailInboxPage"/>
 	   </classes>
    </test>
 </suite>
