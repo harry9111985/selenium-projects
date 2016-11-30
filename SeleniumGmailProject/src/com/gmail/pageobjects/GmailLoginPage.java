@@ -4,7 +4,6 @@ package com.gmail.pageobjects;
 import java.util.List;
 import java.util.function.Consumer;
 
-import org.openqa.jetty.html.Page;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
