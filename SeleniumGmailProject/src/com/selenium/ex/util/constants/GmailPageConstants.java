@@ -1,5 +1,10 @@
 package com.selenium.ex.util.constants;
 
+/**
+ * @author Harish Subramaniam
+ *
+ * A constants class to hold Gmail Constants
+ */
 public final class GmailPageConstants {
 
 	   public static class GmailInput {

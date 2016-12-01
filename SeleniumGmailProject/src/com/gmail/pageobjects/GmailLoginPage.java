@@ -20,7 +20,7 @@ public final class GmailLoginPage {
 
 	//Driver and Web Element References
 	
-	WebDriver driver;
+	private WebDriver driver;
 	
 	@FindBy(id = "Email")
 	private WebElement loginEmail;

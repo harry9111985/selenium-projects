@@ -4,7 +4,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+/**
+ * @author Harish Subramaniam
+ * 
+ * This class is a Data Set to represent Excel Data . 
+ * It stores list a map of Excel Sheet, List<Rows in Excel Sheet>
+ * Each Row is represented as an implementation of DataRow Object.
+ * 
+ */
 public final class ExcelDataSet implements DataSet {
 
 	private final Map<String,List<DataRow>> excelDataBySheet;

@@ -18,9 +18,9 @@ import com.testng.gmail.tests.dataproviders.GmailDataProviderSource;
 public class TestGmailInboxPage {
 
 	
-	WebDriver driver;
-	GmailLoginPage loginPage;
-	GmailInboxPage inboxPage;
+	private WebDriver driver;
+	private GmailLoginPage loginPage;
+	private GmailInboxPage inboxPage;
 	
 	
 	@BeforeMethod(alwaysRun=true)

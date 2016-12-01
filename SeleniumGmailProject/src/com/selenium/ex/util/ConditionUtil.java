@@ -14,7 +14,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.google.common.base.Function;
 
-
+/**
+ * @author Harish Subramaniam
+ * 
+ * A utility to process a WebDriver conditions using WebDriver waits.
+ * 
+ */
 public class ConditionUtil {
 
 	private ConditionUtil() throws Exception {

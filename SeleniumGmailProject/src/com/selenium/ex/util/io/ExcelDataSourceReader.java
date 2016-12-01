@@ -12,6 +12,13 @@ import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 
+/**
+ * @author Harish Subramaniam
+ *
+ * This class implements the DataSourceReader capabilities to read data 
+ * from an excel document. It uses an Apache POI APIs to read the excel
+ * and it stores the data as a collection of DataRow's (DataSet).
+ */
 public class ExcelDataSourceReader extends DataSourceReaderImpl {
 
 	private ExcelDataSourceReader(){

@@ -10,7 +10,13 @@ import com.selenium.ex.util.io.DataRow;
 import com.selenium.ex.util.io.DataSourceReader;
 import com.selenium.ex.util.io.DataSourceReaderFactory;
 import com.selenium.ex.util.io.ExcelDataSet;
-
+/**
+ * @author Harish Subramaniam
+ *
+ * A TestNG DataProvider implementation for providing Gmail Test Data. 
+ * This uses the DataSourceReader Framework to read data and 
+ * pass on to TestNG Tests for testing use. 
+ */
 public class GmailDataProviderSource {
 
 	private static Map<String,DataSourceReader> readers;
