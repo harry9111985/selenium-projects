@@ -9,8 +9,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.gmail.pageobjects.GmailInboxPage;
-import com.gmail.pageobjects.GmailLoginPage;
+import com.selenium.gmail.pageobjects.GmailInboxPage;
+import com.selenium.gmail.pageobjects.GmailLoginPage;
 import com.selenium.ex.util.constants.GmailPageConstants;
 import com.selenium.ex.util.io.DataRow;
 import com.testng.gmail.tests.dataproviders.GmailDataProviderSource;
